@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jscomplete/learn-fullstack-javascript/issues"
   },
-  "homepage": "https://github.com/jscomplete/learn-fullstack-javascript#readme"
+  "homepage": "https://github.com/jscomplete/learn-fullstack-javascript#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
