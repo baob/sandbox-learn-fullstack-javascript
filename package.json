@@ -1,0 +1,22 @@
+{
+  "name": "fulljs",
+  "version": "1.0.0",
+  "description": "Learning Fullstack JavaScript Development: MongoDB, Node.js, React.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jscomplete/learn-fullstack-javascript.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jscomplete/learn-fullstack-javascript/issues"
+  },
+  "homepage": "https://github.com/jscomplete/learn-fullstack-javascript#readme"
+}
