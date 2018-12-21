@@ -1,0 +1,6 @@
+{
+    "window.title": "learn-fullstack-javascript: ${activeEditorMedium}",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#999933"
+	},
+}
