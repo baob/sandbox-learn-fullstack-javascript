@@ -1,5 +1,3 @@
-import config, { nodeEnv, logStars } from "./config";
+import config, { nodeEnv } from "./config";
 
 console.log(config, nodeEnv);
-
-logStars("invoking the imported function");
