@@ -1,4 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<h2>Hello React with JSX</h2>, document.getElementById('root'));
+const App = () => {
+	return <h2 className="text-center">hello react components</h2>;
+};
+
+ReactDOM.render(<App />, document.getElementById('root'));
