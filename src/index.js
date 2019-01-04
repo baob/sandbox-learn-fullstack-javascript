@@ -1,7 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-ReactDOM.render(
-	React.createElement("h2", null, "hello React"),
-	document.getElementById("root")
-);
+ReactDOM.render(<h2 className="text-center">hello react WITH JSX !!</h2>, document.getElementById('root'));
