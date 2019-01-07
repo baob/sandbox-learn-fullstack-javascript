@@ -1,18 +1,25 @@
 module.exports = {
-	entry: "./src/index.js",
+	entry: './src/index.jsx',
 	output: {
-		path: __dirname + "/public",
-		filename: "bundle.js"
+		path: __dirname + '/public',
+		filename: 'bundle.js'
+	},
+	resolve: {
+		extensions: ['.js', '.jsx']
 	},
 	module: {
 		rules: [
 			{
 				test: /\.json$/,
-				loader: "json-loader"
+				loader: 'json-loader'
 			},
 			{
 				test: /\.js$/,
-				loader: "babel-loader"
+				loader: 'babel-loader'
+			},
+			{
+				test: /\.jsx$/,
+				loader: 'babel-loader'
 			}
 		]
 	}
